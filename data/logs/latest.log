@@ -1,6 +1,6 @@
-[08:52:15] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.16.10
-[08:52:15] [ForkJoinPool-1-worker-5/WARN]: Mod com_github_pircbotx_pircbotx uses the version 12f5639c5d which isn't compatible with Loader's extended semantic version format (Could not parse version number component '12f5639c5d'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[08:52:16] [main/INFO]: Loading 55 mods:
+[09:20:49] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.16.10
+[09:20:49] [ForkJoinPool-1-worker-4/WARN]: Mod com_github_pircbotx_pircbotx uses the version 12f5639c5d which isn't compatible with Loader's extended semantic version format (Could not parse version number component '12f5639c5d'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[09:20:50] [main/INFO]: Loading 56 mods:
 	- entropy 1.12+mc1.19.4
 	   |-- com_fasterxml_jackson_core_jackson-annotations 2.10.1
 	   |-- com_fasterxml_jackson_core_jackson-core 2.10.1
@@ -67,103 +67,92 @@
 	- fabricloader 0.16.10
 	   \-- mixinextras 0.4.1
 	- java 21
+	- lithium 0.11.1
 	- lucky 1.19.3-13.0
 	- minecraft 1.19.4
-[08:52:17] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/data/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[08:52:18] [main/INFO]: Compatibility level set to JAVA_16
-[08:52:18] [main/INFO]: Compatibility level set to JAVA_17
-[08:52:20] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[08:52:34] [main/INFO]: Entropy Started
-[08:52:39] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[08:52:39] [main/INFO]: Found new data pack fabric, loading it automatically
-[08:52:51] [main/INFO]: Loaded 7 recipes
-[08:52:51] [main/INFO]: Loaded 1179 advancements
-[08:52:52] [main/INFO]: Applied 63 biome modifications to 63 of 63 new biomes in 15.81 ms
-[08:52:52] [Server thread/INFO]: Starting minecraft server version 1.19.4
-[08:52:52] [Server thread/INFO]: Loading properties
-[08:52:52] [Server thread/INFO]: Default game type: SURVIVAL
-[08:52:52] [Server thread/INFO]: Generating keypair
-[08:52:52] [Server thread/INFO]: Starting Minecraft server on *:25565
-[08:52:52] [Server thread/INFO]: Using epoll channel type
-[08:52:53] [Server thread/INFO]: Preparing level "world"
-[08:53:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[08:53:05] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[08:53:05] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[08:53:05] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[08:53:05] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[08:53:05] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[08:53:06] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[08:53:06] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[08:53:07] [Worker-Main-5/INFO]: Generating lucky feature at Vec3(x=-240, y=71, z=48): WeightedDrop(drop=GroupDrop(drops=[SingleDrop(type=block, props={posY=TemplateAttr(spec=ValueSpec(type=DOUBLE), templateVars=[(null, TemplateVar(name=bPosY, args=[])), (-1, null)], needsEval=true, type=BOOLEAN), damage=TemplateAttr(spec=null, templateVars=[(null, TemplateVar(name=rand, args=[0, 2]))], needsEval=true, type=BOOLEAN), amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[20, 30]))], needsEval=true, type=BOOLEAN), id=stone_bricks, type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 3]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=stone_bricks,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),damage=#rand(0,2),amount=#rand(20,30)), SingleDrop(type=block, props={posY=TemplateAttr(spec=ValueSpec(type=DOUBLE), templateVars=[(null, TemplateVar(name=bPosY, args=[])), (-1, null)], needsEval=true, type=BOOLEAN), amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[20, 30]))], needsEval=true, type=BOOLEAN), id=netherrack, type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 3]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=netherrack,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),amount=#rand(20,30)), SingleDrop(type=block, props={posY=TemplateAttr(spec=ValueSpec(type=DOUBLE), templateVars=[(null, TemplateVar(name=bPosY, args=[])), (-1, null)], needsEval=true, type=BOOLEAN), amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[10, 15]))], needsEval=true, type=BOOLEAN), id=obsidian, type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 3]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=obsidian,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),amount=#rand(10,15)), SingleDrop(type=block, props={amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[2, 5]))], needsEval=true, type=BOOLEAN), id=TemplateAttr(spec=ValueSpec(type=STRING), templateVars=[(null, TemplateVar(name=randList, args=[infested, cracked, mossy])), (_stone_bricks, null)], needsEval=true, type=BOOLEAN), type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 2]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=#randList(infested,cracked,mossy)_stone_bricks,posOffset=#circleOffset(#rand(0,2)),amount=#rand(2,5)), SingleDrop(type=block, props={amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[2, 5]))], needsEval=true, type=BOOLEAN), id=netherrack, type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 2]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=netherrack,posOffset=#circleOffset(#rand(0,2)),amount=#rand(2,5)), SingleDrop(type=block, props={amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 2]))], needsEval=true, type=BOOLEAN), id=obsidian, type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 2]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=obsidian,posOffset=#circleOffset(#rand(0,2)),amount=#rand(0,2)), SingleDrop(type=block, props={nbttag={Luck=-75}, id=lucky:lucky_block, type=block}, propsString=type=block,ID=lucky:lucky_block,tileEntity=(Luck=-75))], amount=7, shuffle=false), dropString=group(type=block,ID=stone_bricks,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),damage=#rand(0,2),amount=#rand(20,30);type=block,ID=netherrack,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),amount=#rand(20,30);type=block,ID=obsidian,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),amount=#rand(10,15);type=block,ID=#randList(infested,cracked,mossy)_stone_bricks,posOffset=#circleOffset(#rand(0,2)),amount=#rand(2,5);type=block,ID=netherrack,posOffset=#circleOffset(#rand(0,2)),amount=#rand(2,5);type=block,ID=obsidian,posOffset=#circleOffset(#rand(0,2)),amount=#rand(0,2);type=block,ID=lucky:lucky_block,tileEntity=(Luck=-75))@chance=600, luck=0, chance=600.0)
-[08:53:07] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[08:53:07] [Worker-Main-1/INFO]: Preparing spawn area: 1%
-[08:53:08] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[08:53:08] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[08:53:09] [Worker-Main-5/INFO]: Preparing spawn area: 3%
-[08:53:10] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[08:53:10] [Worker-Main-3/INFO]: Preparing spawn area: 5%
-[08:53:10] [Worker-Main-5/INFO]: Preparing spawn area: 6%
-[08:53:11] [Worker-Main-2/INFO]: Preparing spawn area: 6%
-[08:53:11] [Worker-Main-2/INFO]: Preparing spawn area: 7%
-[08:53:12] [Worker-Main-5/INFO]: Preparing spawn area: 9%
-[08:53:12] [Worker-Main-1/INFO]: Preparing spawn area: 10%
-[08:53:13] [Worker-Main-1/INFO]: Preparing spawn area: 11%
-[08:53:13] [Worker-Main-2/INFO]: Preparing spawn area: 12%
-[08:53:14] [Worker-Main-1/INFO]: Preparing spawn area: 14%
-[08:53:14] [Worker-Main-4/INFO]: Preparing spawn area: 15%
-[08:53:15] [Worker-Main-2/INFO]: Preparing spawn area: 17%
-[08:53:15] [Worker-Main-2/INFO]: Preparing spawn area: 17%
-[08:53:16] [Worker-Main-5/INFO]: Preparing spawn area: 19%
-[08:53:16] [Worker-Main-4/INFO]: Preparing spawn area: 20%
-[08:53:17] [Worker-Main-5/INFO]: Preparing spawn area: 22%
-[08:53:17] [Worker-Main-4/INFO]: Preparing spawn area: 23%
-[08:53:18] [Worker-Main-2/INFO]: Preparing spawn area: 25%
-[08:53:18] [Worker-Main-1/INFO]: Preparing spawn area: 26%
-[08:53:19] [Worker-Main-5/INFO]: Preparing spawn area: 27%
-[08:53:19] [Worker-Main-4/INFO]: Preparing spawn area: 29%
-[08:53:20] [Worker-Main-3/INFO]: Preparing spawn area: 31%
-[08:53:20] [Worker-Main-2/INFO]: Preparing spawn area: 32%
-[08:53:21] [Worker-Main-1/INFO]: Preparing spawn area: 34%
-[08:53:21] [Worker-Main-3/INFO]: Preparing spawn area: 35%
-[08:53:22] [Worker-Main-5/INFO]: Preparing spawn area: 38%
-[08:53:22] [Worker-Main-3/INFO]: Preparing spawn area: 41%
-[08:53:23] [Worker-Main-1/INFO]: Preparing spawn area: 42%
-[08:53:23] [Worker-Main-1/INFO]: Preparing spawn area: 43%
-[08:53:24] [Worker-Main-5/INFO]: Preparing spawn area: 44%
-[08:53:24] [Worker-Main-1/INFO]: Preparing spawn area: 46%
-[08:53:25] [Worker-Main-5/INFO]: Preparing spawn area: 49%
-[08:53:25] [Worker-Main-4/INFO]: Preparing spawn area: 52%
-[08:53:26] [Worker-Main-5/INFO]: Preparing spawn area: 54%
-[08:53:26] [Worker-Main-4/INFO]: Preparing spawn area: 55%
-[08:53:27] [Worker-Main-1/INFO]: Preparing spawn area: 56%
-[08:53:27] [Worker-Main-3/INFO]: Preparing spawn area: 56%
-[08:53:28] [Worker-Main-1/INFO]: Preparing spawn area: 58%
-[08:53:28] [Worker-Main-5/INFO]: Preparing spawn area: 61%
-[08:53:29] [Worker-Main-4/INFO]: Preparing spawn area: 63%
-[08:53:29] [Worker-Main-3/INFO]: Preparing spawn area: 66%
-[08:53:30] [Worker-Main-2/INFO]: Preparing spawn area: 68%
-[08:53:30] [Worker-Main-4/INFO]: Preparing spawn area: 69%
-[08:53:31] [Worker-Main-5/INFO]: Preparing spawn area: 71%
-[08:53:31] [Worker-Main-1/INFO]: Preparing spawn area: 74%
-[08:53:32] [Worker-Main-2/INFO]: Preparing spawn area: 75%
-[08:53:32] [Worker-Main-2/INFO]: Preparing spawn area: 78%
-[08:53:33] [Worker-Main-2/INFO]: Preparing spawn area: 80%
-[08:53:33] [Worker-Main-5/INFO]: Preparing spawn area: 82%
-[08:53:34] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[08:53:34] [Worker-Main-5/INFO]: Preparing spawn area: 86%
-[08:53:35] [Worker-Main-3/INFO]: Preparing spawn area: 89%
-[08:53:35] [Worker-Main-5/INFO]: Preparing spawn area: 90%
-[08:53:36] [Worker-Main-1/INFO]: Preparing spawn area: 93%
-[08:53:36] [Worker-Main-2/INFO]: Preparing spawn area: 96%
-[08:53:37] [Worker-Main-4/INFO]: Preparing spawn area: 99%
-[08:53:37] [Server thread/INFO]: Time elapsed: 33581 ms
-[08:53:37] [Server thread/INFO]: Done (43.956s)! For help, type "help"
-[08:53:37] [Server thread/INFO]: Starting remote control listener
-[08:53:37] [Server thread/INFO]: Thread RCON Listener started
-[08:53:37] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[09:03:06] [User Authenticator #1/INFO]: UUID of player KOEGlike is d58f4588-8a25-45c1-b735-3abeb5062246
-[09:03:06] [Server thread/INFO]: KOEGlike[/172.18.0.1:56038] logged in with entity id 326 at (-216.5, 73.0, 58.5)
-[09:03:07] [Netty Epoll Server IO #0/ERROR]: Encountered exception while handling in channel with name "entropy:join-handshake"
+[09:20:51] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/data/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[09:20:51] [main/INFO]: Compatibility level set to JAVA_16
+[09:20:51] [main/INFO]: Compatibility level set to JAVA_17
+[09:20:52] [main/INFO]: Loaded configuration file for Lithium: 114 options available, 0 override(s) found
+[09:20:53] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[09:21:07] [main/INFO]: Entropy Started
+[09:21:11] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:21:12] [main/INFO]: Found new data pack fabric, loading it automatically
+[09:21:22] [main/INFO]: Loaded 7 recipes
+[09:21:23] [main/INFO]: Loaded 1179 advancements
+[09:21:24] [main/INFO]: Applied 63 biome modifications to 63 of 63 new biomes in 33.41 ms
+[09:21:24] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[09:21:24] [Server thread/INFO]: Loading properties
+[09:21:24] [Server thread/INFO]: Default game type: SURVIVAL
+[09:21:24] [Server thread/INFO]: Generating keypair
+[09:21:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:21:24] [Server thread/INFO]: Using epoll channel type
+[09:21:25] [Server thread/INFO]: Preparing level "world"
+[09:21:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:21:33] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[09:21:33] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[09:21:33] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[09:21:33] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[09:21:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[09:21:34] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[09:21:35] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[09:21:35] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[09:21:36] [Worker-Main-5/INFO]: Preparing spawn area: 2%
+[09:21:36] [Worker-Main-1/INFO]: Preparing spawn area: 3%
+[09:21:37] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[09:21:37] [Worker-Main-2/INFO]: Preparing spawn area: 5%
+[09:21:38] [Worker-Main-1/INFO]: Preparing spawn area: 7%
+[09:21:38] [Worker-Main-3/INFO]: Preparing spawn area: 9%
+[09:21:39] [Worker-Main-3/INFO]: Preparing spawn area: 10%
+[09:21:39] [Worker-Main-4/INFO]: Preparing spawn area: 12%
+[09:21:40] [Worker-Main-2/INFO]: Preparing spawn area: 13%
+[09:21:40] [Worker-Main-2/INFO]: Preparing spawn area: 15%
+[09:21:41] [Worker-Main-5/INFO]: Preparing spawn area: 15%
+[09:21:41] [Worker-Main-5/INFO]: Preparing spawn area: 18%
+[09:21:42] [Worker-Main-5/INFO]: Preparing spawn area: 20%
+[09:21:42] [Worker-Main-3/INFO]: Preparing spawn area: 22%
+[09:21:43] [Worker-Main-4/INFO]: Preparing spawn area: 23%
+[09:21:43] [Worker-Main-2/INFO]: Preparing spawn area: 25%
+[09:21:44] [Worker-Main-5/INFO]: Preparing spawn area: 27%
+[09:21:44] [Worker-Main-1/INFO]: Preparing spawn area: 29%
+[09:21:45] [Worker-Main-1/INFO]: Preparing spawn area: 31%
+[09:21:45] [Worker-Main-4/INFO]: Preparing spawn area: 32%
+[09:21:46] [Worker-Main-5/INFO]: Preparing spawn area: 35%
+[09:21:46] [Worker-Main-4/INFO]: Preparing spawn area: 37%
+[09:21:47] [Worker-Main-4/INFO]: Preparing spawn area: 40%
+[09:21:47] [Worker-Main-1/INFO]: Preparing spawn area: 42%
+[09:21:48] [Worker-Main-5/INFO]: Preparing spawn area: 44%
+[09:21:48] [Worker-Main-5/INFO]: Preparing spawn area: 47%
+[09:21:48] [Worker-Main-2/INFO]: Generating lucky feature at Vec3(x=-256, y=59, z=64): WeightedDrop(drop=SingleDrop(type=block, props={type=block, id=lucky:lucky_block}, propsString=type=block,ID=lucky:lucky_block), dropString=type=block,ID=lucky:lucky_block@chance=600, luck=0, chance=600.0)
+[09:21:49] [Worker-Main-2/INFO]: Preparing spawn area: 50%
+[09:21:49] [Worker-Main-3/INFO]: Generating lucky feature at Vec3(x=-320, y=75, z=-160): WeightedDrop(drop=GroupDrop(drops=[SingleDrop(type=block, props={posY=TemplateAttr(spec=ValueSpec(type=DOUBLE), templateVars=[(null, TemplateVar(name=bPosY, args=[])), (-1, null)], needsEval=true, type=BOOLEAN), damage=TemplateAttr(spec=null, templateVars=[(null, TemplateVar(name=rand, args=[0, 2]))], needsEval=true, type=BOOLEAN), amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[20, 30]))], needsEval=true, type=BOOLEAN), id=stone_bricks, type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 3]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=stone_bricks,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),damage=#rand(0,2),amount=#rand(20,30)), SingleDrop(type=block, props={posY=TemplateAttr(spec=ValueSpec(type=DOUBLE), templateVars=[(null, TemplateVar(name=bPosY, args=[])), (-1, null)], needsEval=true, type=BOOLEAN), amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[20, 30]))], needsEval=true, type=BOOLEAN), id=netherrack, type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 3]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=netherrack,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),amount=#rand(20,30)), SingleDrop(type=block, props={posY=TemplateAttr(spec=ValueSpec(type=DOUBLE), templateVars=[(null, TemplateVar(name=bPosY, args=[])), (-1, null)], needsEval=true, type=BOOLEAN), amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[10, 15]))], needsEval=true, type=BOOLEAN), id=obsidian, type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 3]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=obsidian,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),amount=#rand(10,15)), SingleDrop(type=block, props={amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[2, 5]))], needsEval=true, type=BOOLEAN), id=TemplateAttr(spec=ValueSpec(type=STRING), templateVars=[(null, TemplateVar(name=randList, args=[infested, cracked, mossy])), (_stone_bricks, null)], needsEval=true, type=BOOLEAN), type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 2]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=#randList(infested,cracked,mossy)_stone_bricks,posOffset=#circleOffset(#rand(0,2)),amount=#rand(2,5)), SingleDrop(type=block, props={amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[2, 5]))], needsEval=true, type=BOOLEAN), id=netherrack, type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 2]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=netherrack,posOffset=#circleOffset(#rand(0,2)),amount=#rand(2,5)), SingleDrop(type=block, props={amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 2]))], needsEval=true, type=BOOLEAN), id=obsidian, type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 2]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=obsidian,posOffset=#circleOffset(#rand(0,2)),amount=#rand(0,2)), SingleDrop(type=block, props={nbttag={Luck=-75}, id=lucky:lucky_block, type=block}, propsString=type=block,ID=lucky:lucky_block,tileEntity=(Luck=-75))], amount=7, shuffle=false), dropString=group(type=block,ID=stone_bricks,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),damage=#rand(0,2),amount=#rand(20,30);type=block,ID=netherrack,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),amount=#rand(20,30);type=block,ID=obsidian,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),amount=#rand(10,15);type=block,ID=#randList(infested,cracked,mossy)_stone_bricks,posOffset=#circleOffset(#rand(0,2)),amount=#rand(2,5);type=block,ID=netherrack,posOffset=#circleOffset(#rand(0,2)),amount=#rand(2,5);type=block,ID=obsidian,posOffset=#circleOffset(#rand(0,2)),amount=#rand(0,2);type=block,ID=lucky:lucky_block,tileEntity=(Luck=-75))@chance=600, luck=0, chance=600.0)
+[09:21:49] [Worker-Main-3/INFO]: Preparing spawn area: 54%
+[09:21:50] [Worker-Main-4/INFO]: Preparing spawn area: 55%
+[09:21:50] [Worker-Main-1/INFO]: Preparing spawn area: 58%
+[09:21:51] [Worker-Main-3/INFO]: Preparing spawn area: 61%
+[09:21:51] [Worker-Main-4/INFO]: Preparing spawn area: 63%
+[09:21:52] [Worker-Main-2/INFO]: Preparing spawn area: 68%
+[09:21:52] [Worker-Main-4/INFO]: Preparing spawn area: 70%
+[09:21:53] [Worker-Main-3/INFO]: Preparing spawn area: 72%
+[09:21:53] [Worker-Main-1/INFO]: Preparing spawn area: 76%
+[09:21:54] [Worker-Main-2/INFO]: Preparing spawn area: 79%
+[09:21:54] [Worker-Main-1/INFO]: Preparing spawn area: 81%
+[09:21:55] [Worker-Main-5/INFO]: Preparing spawn area: 83%
+[09:21:55] [Worker-Main-2/INFO]: Preparing spawn area: 86%
+[09:21:56] [Worker-Main-1/INFO]: Preparing spawn area: 89%
+[09:21:56] [Worker-Main-3/INFO]: Preparing spawn area: 93%
+[09:21:57] [Worker-Main-3/INFO]: Preparing spawn area: 96%
+[09:21:57] [Worker-Main-4/INFO]: Generating lucky feature at Vec3(x=-368, y=73, z=-224): WeightedDrop(drop=GroupDrop(drops=[SingleDrop(type=block, props={posY=TemplateAttr(spec=ValueSpec(type=DOUBLE), templateVars=[(null, TemplateVar(name=bPosY, args=[])), (-1, null)], needsEval=true, type=BOOLEAN), damage=TemplateAttr(spec=null, templateVars=[(null, TemplateVar(name=rand, args=[0, 2]))], needsEval=true, type=BOOLEAN), amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[20, 30]))], needsEval=true, type=BOOLEAN), id=stone_bricks, type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 3]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=stone_bricks,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),damage=#rand(0,2),amount=#rand(20,30)), SingleDrop(type=block, props={posY=TemplateAttr(spec=ValueSpec(type=DOUBLE), templateVars=[(null, TemplateVar(name=bPosY, args=[])), (-1, null)], needsEval=true, type=BOOLEAN), amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[20, 30]))], needsEval=true, type=BOOLEAN), id=netherrack, type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 3]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=netherrack,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),amount=#rand(20,30)), SingleDrop(type=block, props={posY=TemplateAttr(spec=ValueSpec(type=DOUBLE), templateVars=[(null, TemplateVar(name=bPosY, args=[])), (-1, null)], needsEval=true, type=BOOLEAN), amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[10, 15]))], needsEval=true, type=BOOLEAN), id=obsidian, type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 3]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=obsidian,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),amount=#rand(10,15)), SingleDrop(type=block, props={amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[2, 5]))], needsEval=true, type=BOOLEAN), id=TemplateAttr(spec=ValueSpec(type=STRING), templateVars=[(null, TemplateVar(name=randList, args=[infested, cracked, mossy])), (_stone_bricks, null)], needsEval=true, type=BOOLEAN), type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 2]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=#randList(infested,cracked,mossy)_stone_bricks,posOffset=#circleOffset(#rand(0,2)),amount=#rand(2,5)), SingleDrop(type=block, props={amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[2, 5]))], needsEval=true, type=BOOLEAN), id=netherrack, type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 2]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=netherrack,posOffset=#circleOffset(#rand(0,2)),amount=#rand(2,5)), SingleDrop(type=block, props={amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 2]))], needsEval=true, type=BOOLEAN), id=obsidian, type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 2]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=obsidian,posOffset=#circleOffset(#rand(0,2)),amount=#rand(0,2)), SingleDrop(type=block, props={nbttag={Luck=-75}, id=lucky:lucky_block, type=block}, propsString=type=block,ID=lucky:lucky_block,tileEntity=(Luck=-75))], amount=7, shuffle=false), dropString=group(type=block,ID=stone_bricks,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),damage=#rand(0,2),amount=#rand(20,30);type=block,ID=netherrack,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),amount=#rand(20,30);type=block,ID=obsidian,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),amount=#rand(10,15);type=block,ID=#randList(infested,cracked,mossy)_stone_bricks,posOffset=#circleOffset(#rand(0,2)),amount=#rand(2,5);type=block,ID=netherrack,posOffset=#circleOffset(#rand(0,2)),amount=#rand(2,5);type=block,ID=obsidian,posOffset=#circleOffset(#rand(0,2)),amount=#rand(0,2);type=block,ID=lucky:lucky_block,tileEntity=(Luck=-75))@chance=600, luck=0, chance=600.0)
+[09:21:57] [Worker-Main-5/INFO]: Preparing spawn area: 99%
+[09:21:57] [Server thread/INFO]: Time elapsed: 25696 ms
+[09:21:57] [Server thread/INFO]: Done (32.641s)! For help, type "help"
+[09:21:57] [Server thread/INFO]: Starting remote control listener
+[09:21:57] [Server thread/INFO]: Thread RCON Listener started
+[09:21:57] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[09:22:29] [User Authenticator #1/INFO]: UUID of player hunorstreamer is 548ea57b-d606-4b54-9fb2-0e7fc269daad
+[09:22:29] [Server thread/INFO]: hunorstreamer[/172.18.0.1:33670] logged in with entity id 296 at (-183.5, 74.0, -87.5)
+[09:22:29] [Server thread/INFO]: hunorstreamer joined the game
+[09:22:29] [Netty Epoll Server IO #1/ERROR]: Encountered exception while handling in channel with name "entropy:join-handshake"
 java.lang.NullPointerException: Cannot read field "currentEvents" because "this.eventHandler" is null
 	at me.juancarloscp52.entropy.Entropy.lambda$onInitialize$1(Entropy.java:83) ~[Entropy-1.12+mc1.19.4.jar:?]
 	at net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.receive(ServerPlayNetworkAddon.java:85) ~[fabric-networking-api-v1-1.3.6+ae9c4c6af4-618d69a4b18b51f0.jar:?]
@@ -220,78 +209,95 @@ java.lang.NullPointerException: Cannot read field "currentEvents" because "this.
 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
 	at java.lang.Thread.run(Unknown Source) ~[?:?]
-[09:03:07] [Server thread/INFO]: KOEGlike joined the game
-[09:03:07] [Server thread/INFO]: KOEGlike lost connection: Internal Exception: java.lang.NullPointerException: Cannot read field "currentEvents" because "this.eventHandler" is null
-[09:03:07] [Server thread/INFO]: KOEGlike left the game
-[09:03:07] [Server thread/WARN]: handleDisconnection() called twice
-[09:03:10] [User Authenticator #2/INFO]: UUID of player hunorstreamer is 548ea57b-d606-4b54-9fb2-0e7fc269daad
-[09:03:10] [Server thread/INFO]: hunorstreamer[/172.18.0.1:59972] logged in with entity id 327 at (-206.5, 69.0, 72.5)
-[09:03:10] [Server thread/INFO]: hunorstreamer joined the game
-[09:03:11] [User Authenticator #3/INFO]: UUID of player KOEGlike is d58f4588-8a25-45c1-b735-3abeb5062246
-[09:03:12] [Server thread/INFO]: KOEGlike[/172.18.0.1:59982] logged in with entity id 421 at (-216.5, 73.0, 58.5)
-[09:03:12] [Server thread/INFO]: KOEGlike joined the game
-[09:03:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2052ms or 41 ticks behind
-[09:03:20] [Server thread/INFO]: hunorstreamer lost connection: Disconnected
-[09:03:20] [Server thread/INFO]: hunorstreamer left the game
-[09:03:22] [Server thread/INFO]: KOEGlike lost connection: Disconnected
-[09:03:22] [Server thread/INFO]: KOEGlike left the game
-[09:06:15] [User Authenticator #4/INFO]: UUID of player KOEGlike is d58f4588-8a25-45c1-b735-3abeb5062246
-[09:06:15] [Server thread/INFO]: KOEGlike[/172.18.0.1:56448] logged in with entity id 505 at (-228.46826583078675, 72.0, 52.171110216774366)
-[09:06:15] [Server thread/INFO]: KOEGlike joined the game
-[09:06:15] [Server thread/INFO]: KOEGlike lost connection: Disconnected
-[09:06:15] [Server thread/INFO]: KOEGlike left the game
-[09:06:15] [Server thread/WARN]: handleDisconnection() called twice
-[09:07:11] [User Authenticator #5/INFO]: UUID of player hunorstreamer is 548ea57b-d606-4b54-9fb2-0e7fc269daad
-[09:07:11] [Server thread/INFO]: hunorstreamer[/172.18.0.1:33500] logged in with entity id 506 at (-204.9914245131002, 69.0, 64.55993963866555)
-[09:07:11] [Server thread/INFO]: hunorstreamer joined the game
-[09:07:12] [User Authenticator #6/INFO]: UUID of player KOEGlike is d58f4588-8a25-45c1-b735-3abeb5062246
-[09:07:13] [Server thread/INFO]: KOEGlike[/172.18.0.1:33502] logged in with entity id 523 at (-228.46826583078675, 72.0, 52.171110216774366)
-[09:07:13] [Server thread/INFO]: KOEGlike joined the game
-[09:07:16] [Server thread/INFO]: [hunorstreamer: Set own game mode to Creative Mode]
-[09:07:40] [Server thread/INFO]: [hunorstreamer: Set own game mode to Survival Mode]
-[09:07:56] [Server thread/INFO]: New Event: entropy.events.OnlyBackwardsEvent total duration: 600
-[09:07:57] [Server thread/INFO]: Chosen Lucky Drop: group(ID=wooden_sword;ID=wooden_shovel;ID=wooden_pickaxe;ID=wooden_axe;ID=wooden_hoe)@luck=0
-[09:08:10] [Server thread/INFO]: hunorstreamer has made the advancement [Stone Age]
-[09:08:16] [Server thread/INFO]: Chosen Lucky Drop: group(ID=stone_sword;ID=stone_shovel;ID=stone_pickaxe;ID=stone_axe;ID=stone_hoe)@luck=0
-[09:08:19] [Server thread/INFO]: KOEGlike has made the advancement [Getting an Upgrade]
-[09:08:21] [Server thread/INFO]: Chosen Lucky Drop: group(ID=golden_sword;ID=golden_shovel;ID=golden_pickaxe;ID=golden_axe;ID=golden_hoe)@luck=1
-[09:08:26] [Server thread/INFO]: Chosen Lucky Drop: group:#rand(2,3):(ID=iron_shovel;ID=iron_pickaxe;ID=iron_axe;ID=iron_sword;ID=iron_hoe)@luck=1
-[09:08:28] [Server thread/INFO]: Chosen Lucky Drop: group:#rand(1,2):(ID=diamond_sword;ID=diamond_shovel;ID=diamond_pickaxe;ID=diamond_axe;ID=diamond_hoe)@luck=2
-[09:08:35] [Server thread/INFO]: Chosen Lucky Drop: group(ID=leather_helmet;ID=leather_chestplate;ID=leather_leggings;ID=leather_boots)@luck=0
-[09:08:38] [Server thread/INFO]: Chosen Lucky Drop: group(ID=golden_helmet;ID=golden_chestplate;ID=golden_leggings;ID=golden_boots;ID=golden_horse_armor)@luck=1
-[09:08:39] [Server thread/INFO]: Chosen Lucky Drop: group:#rand(2,3):(ID=chainmail_helmet;ID=chainmail_chestplate;ID=chainmail_leggings;ID=chainmail_boots)@luck=2
-[09:08:41] [Server thread/INFO]: New Event: entropy.events.HungryEvent total duration: 0
-[09:08:41] [Server thread/INFO]: Chosen Lucky Drop: group:#rand(2,3):(ID=iron_helmet;ID=iron_chestplate;ID=iron_leggings;ID=iron_boots;ID=iron_horse_armor)@luck=1
-[09:08:42] [Server thread/INFO]: KOEGlike has made the advancement [Suit Up]
-[09:08:44] [Server thread/INFO]: Chosen Lucky Drop: group:#rand(1,2):(ID=diamond_helmet;ID=diamond_chestplate;ID=diamond_leggings;ID=diamond_boots;ID=diamond_horse_armor)@luck=2
-[09:08:44] [Server thread/INFO]: KOEGlike has made the advancement [Cover Me with Diamonds]
-[09:08:45] [Server thread/INFO]: Chosen Lucky Drop: group(ID=iron_horse_armor;ID=golden_horse_armor;ID=diamond_horse_armor)@luck=2
-[09:08:48] [Server thread/INFO]: Chosen Lucky Drop: group(ID=bow;ID=arrow,amount=#rand(16,32))@luck=1
-[09:08:50] [Server thread/INFO]: Chosen Lucky Drop: ID=sponge@luck=0
-[09:08:52] [Server thread/INFO]: Chosen Lucky Drop: ID=tnt,amount=8@luck=1
-[09:08:54] [Server thread/INFO]: Chosen Lucky Drop: ID=obsidian,amount=14@luck=1
-[09:08:54] [Server thread/INFO]: hunorstreamer has made the advancement [Ice Bucket Challenge]
-[09:08:56] [Server thread/INFO]: Chosen Lucky Drop: ID=enchanting_table@luck=2
-[09:08:58] [Server thread/INFO]: Chosen Lucky Drop: ID=end_portal_frame,amount=#rand(2,6)@luck=2
-[09:09:00] [Server thread/INFO]: Chosen Lucky Drop: ID=dragon_egg@luck=1
-[09:09:01] [Server thread/INFO]: hunorstreamer has reached the goal [The Next Generation]
-[09:09:02] [Server thread/INFO]: Chosen Lucky Drop: ID=ender_chest,amount=2@luck=0
-[09:09:03] [Server thread/INFO]: Chosen Lucky Drop: ID=beacon@luck=2
-[09:09:05] [Server thread/INFO]: Chosen Lucky Drop: ID=dropper,amount=8@luck=0
-[09:09:18] [Server thread/INFO]: hunorstreamer has made the advancement [Monster Hunter]
-[09:09:19] [Worker-Main-18/INFO]: Generating lucky feature at Vec3(x=-224, y=80, z=288): WeightedDrop(drop=GroupDrop(drops=[SingleDrop(type=structure, props={type=structure, id=gen_acropolis}, propsString=type=structure,ID=gen_acropolis), SingleDrop(type=block, props={posY=TemplateAttr(spec=ValueSpec(type=DOUBLE), templateVars=[(null, TemplateVar(name=bPosY, args=[])), (+1, null)], needsEval=true, type=BOOLEAN), nbttag={Luck=75}, id=lucky:lucky_block, type=block}, propsString=type=block,ID=lucky:lucky_block,posY=#bPosY+1,tileEntity=(Luck=75))], amount=2, shuffle=false), dropString=group(type=structure,ID=gen_acropolis;type=block,ID=lucky:lucky_block,posY=#bPosY+1,tileEntity=(Luck=75))@chance=600, luck=0, chance=600.0)
-[09:09:26] [Server thread/INFO]: New Event: entropy.events.ForceSneakEvent total duration: 600
-[09:10:11] [Server thread/INFO]: New Event: entropy.events.HorseEvent total duration: 0
-[09:10:18] [Server thread/INFO]: KOEGlike drowned
-[09:10:56] [Server thread/INFO]: New Event: entropy.events.DowngradeRandomGearEvent total duration: 0
-[09:11:41] [Server thread/INFO]: New Event: entropy.events.RainbowSheepEvents total duration: 0
-[09:12:01] [Server thread/INFO]: KOEGlike has made the advancement [Stone Age]
-[09:12:26] [Server thread/INFO]: New Event: entropy.events.NoUseKeyEvent total duration: 600
-[09:12:31] [Server thread/INFO]: hunorstreamer has made the advancement [Acquire Hardware]
-[09:13:05] [Server thread/INFO]: [hunorstreamer: Teleported hunorstreamer to KOEGlike]
-[09:13:05] [Server thread/WARN]: hunorstreamer moved too quickly! 185.0791708933795,-89.0,-104.96022130498534
-[09:13:11] [Server thread/INFO]: New Event: entropy.events.AngryBeeEvent total duration: 0
-[09:13:22] [Server thread/INFO]: hunorstreamer lost connection: Disconnected
-[09:13:22] [Server thread/INFO]: hunorstreamer left the game
-[09:13:23] [Server thread/INFO]: KOEGlike lost connection: Disconnected
-[09:13:23] [Server thread/INFO]: KOEGlike left the game
+[09:22:30] [Server thread/INFO]: hunorstreamer lost connection: Internal Exception: java.lang.NullPointerException: Cannot read field "currentEvents" because "this.eventHandler" is null
+[09:22:30] [Server thread/INFO]: hunorstreamer left the game
+[09:22:30] [Server thread/WARN]: handleDisconnection() called twice
+[09:22:32] [User Authenticator #2/INFO]: UUID of player hunorstreamer is 548ea57b-d606-4b54-9fb2-0e7fc269daad
+[09:22:32] [Server thread/INFO]: hunorstreamer[/172.18.0.1:33702] logged in with entity id 298 at (-183.5, 74.0, -87.5)
+[09:22:32] [Server thread/INFO]: hunorstreamer joined the game
+[09:22:40] [User Authenticator #3/INFO]: UUID of player KOEGlike is d58f4588-8a25-45c1-b735-3abeb5062246
+[09:22:40] [Server thread/INFO]: KOEGlike[/172.18.0.1:36674] logged in with entity id 497 at (-169.5, 71.0, -87.5)
+[09:22:40] [Server thread/INFO]: KOEGlike joined the game
+[09:23:03] [Server thread/INFO]: [hunorstreamer: Set the world border to 200.0 block(s) wide]
+[09:23:04] [Server thread/INFO]: hunorstreamer suffocated in a wall
+[09:23:04] [Server thread/INFO]: KOEGlike suffocated in a wall
+[09:23:17] [Server thread/INFO]: [KOEGlike: Set own game mode to Creative Mode]
+[09:23:17] [Server thread/INFO]: New Event: entropy.events.XRayEvent total duration: 600
+[09:23:33] [Server thread/INFO]: hunorstreamer drowned
+[09:24:02] [Server thread/INFO]: New Event: entropy.events.ExplosivePickaxeEvent total duration: 600
+[09:24:04] [Server thread/INFO]: [hunorstreamer: Set own game mode to Creative Mode]
+[09:24:07] [Server thread/WARN]: hunorstreamer moved too quickly! -5.9258590292795965,5.178411082533891,-6.478439835883066
+[09:24:23] [Server thread/INFO]: [hunorstreamer: Set the world border to 220.0 block(s) wide]
+[09:24:26] [Server thread/INFO]: [hunorstreamer: Set the world border to 420.0 block(s) wide]
+[09:24:29] [Worker-Main-2/INFO]: Generating lucky feature at Vec3(x=-336, y=28, z=-336): WeightedDrop(drop=GroupDrop(drops=[SingleDrop(type=block, props={posY=TemplateAttr(spec=ValueSpec(type=DOUBLE), templateVars=[(null, TemplateVar(name=bPosY, args=[])), (-1, null)], needsEval=true, type=BOOLEAN), damage=TemplateAttr(spec=null, templateVars=[(null, TemplateVar(name=rand, args=[0, 2]))], needsEval=true, type=BOOLEAN), amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[20, 30]))], needsEval=true, type=BOOLEAN), id=stone_bricks, type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 3]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=stone_bricks,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),damage=#rand(0,2),amount=#rand(20,30)), SingleDrop(type=block, props={posY=TemplateAttr(spec=ValueSpec(type=DOUBLE), templateVars=[(null, TemplateVar(name=bPosY, args=[])), (-1, null)], needsEval=true, type=BOOLEAN), amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[20, 30]))], needsEval=true, type=BOOLEAN), id=netherrack, type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 3]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=netherrack,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),amount=#rand(20,30)), SingleDrop(type=block, props={posY=TemplateAttr(spec=ValueSpec(type=DOUBLE), templateVars=[(null, TemplateVar(name=bPosY, args=[])), (-1, null)], needsEval=true, type=BOOLEAN), amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[10, 15]))], needsEval=true, type=BOOLEAN), id=obsidian, type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 3]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=obsidian,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),amount=#rand(10,15)), SingleDrop(type=block, props={amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[2, 5]))], needsEval=true, type=BOOLEAN), id=TemplateAttr(spec=ValueSpec(type=STRING), templateVars=[(null, TemplateVar(name=randList, args=[infested, cracked, mossy])), (_stone_bricks, null)], needsEval=true, type=BOOLEAN), type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 2]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=#randList(infested,cracked,mossy)_stone_bricks,posOffset=#circleOffset(#rand(0,2)),amount=#rand(2,5)), SingleDrop(type=block, props={amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[2, 5]))], needsEval=true, type=BOOLEAN), id=netherrack, type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 2]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=netherrack,posOffset=#circleOffset(#rand(0,2)),amount=#rand(2,5)), SingleDrop(type=block, props={amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 2]))], needsEval=true, type=BOOLEAN), id=obsidian, type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 2]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=obsidian,posOffset=#circleOffset(#rand(0,2)),amount=#rand(0,2)), SingleDrop(type=block, props={nbttag={Luck=-75}, id=lucky:lucky_block, type=block}, propsString=type=block,ID=lucky:lucky_block,tileEntity=(Luck=-75))], amount=7, shuffle=false), dropString=group(type=block,ID=stone_bricks,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),damage=#rand(0,2),amount=#rand(20,30);type=block,ID=netherrack,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),amount=#rand(20,30);type=block,ID=obsidian,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),amount=#rand(10,15);type=block,ID=#randList(infested,cracked,mossy)_stone_bricks,posOffset=#circleOffset(#rand(0,2)),amount=#rand(2,5);type=block,ID=netherrack,posOffset=#circleOffset(#rand(0,2)),amount=#rand(2,5);type=block,ID=obsidian,posOffset=#circleOffset(#rand(0,2)),amount=#rand(0,2);type=block,ID=lucky:lucky_block,tileEntity=(Luck=-75))@chance=600, luck=0, chance=600.0)
+[09:24:38] [Server thread/INFO]: [hunorstreamer: Set the world border to 620.0 block(s) wide]
+[09:24:38] [Worker-Main-1/INFO]: Generating lucky feature at Vec3(x=-416, y=71, z=-96): WeightedDrop(drop=GroupDrop(drops=[SingleDrop(type=structure, props={type=structure, id=gen_acropolis}, propsString=type=structure,ID=gen_acropolis), SingleDrop(type=block, props={posY=TemplateAttr(spec=ValueSpec(type=DOUBLE), templateVars=[(null, TemplateVar(name=bPosY, args=[])), (+1, null)], needsEval=true, type=BOOLEAN), nbttag={Luck=75}, id=lucky:lucky_block, type=block}, propsString=type=block,ID=lucky:lucky_block,posY=#bPosY+1,tileEntity=(Luck=75))], amount=2, shuffle=false), dropString=group(type=structure,ID=gen_acropolis;type=block,ID=lucky:lucky_block,posY=#bPosY+1,tileEntity=(Luck=75))@chance=600, luck=0, chance=600.0)
+[09:24:38] [Worker-Main-1/INFO]: Generating lucky feature at Vec3(x=-416, y=63, z=-16): WeightedDrop(drop=GroupDrop(drops=[SingleDrop(type=structure, props={type=structure, id=gen_acropolis}, propsString=type=structure,ID=gen_acropolis), SingleDrop(type=block, props={posY=TemplateAttr(spec=ValueSpec(type=DOUBLE), templateVars=[(null, TemplateVar(name=bPosY, args=[])), (+1, null)], needsEval=true, type=BOOLEAN), nbttag={Luck=75}, id=lucky:lucky_block, type=block}, propsString=type=block,ID=lucky:lucky_block,posY=#bPosY+1,tileEntity=(Luck=75))], amount=2, shuffle=false), dropString=group(type=structure,ID=gen_acropolis;type=block,ID=lucky:lucky_block,posY=#bPosY+1,tileEntity=(Luck=75))@chance=600, luck=0, chance=600.0)
+[09:24:39] [Worker-Main-1/INFO]: Generating lucky feature at Vec3(x=-416, y=65, z=-320): WeightedDrop(drop=SingleDrop(type=block, props={type=block, id=lucky:lucky_block}, propsString=type=block,ID=lucky:lucky_block), dropString=type=block,ID=lucky:lucky_block@chance=600, luck=0, chance=600.0)
+[09:24:42] [Server thread/INFO]: [hunorstreamer: Set the world border to 200.0 block(s) wide]
+[09:24:47] [Server thread/INFO]: New Event: entropy.events.PlaceLavaBlockEvent total duration: 0
+[09:24:50] [Server thread/INFO]: [hunorstreamer: Set the world border to 400.0 block(s) wide]
+[09:24:53] [Server thread/WARN]: hunorstreamer moved too quickly! -8.319754485566875,5.437658903505437,1.5126156315857742
+[09:24:53] [Worker-Main-3/INFO]: Generating lucky feature at Vec3(x=-464, y=83, z=-176): WeightedDrop(drop=GroupDrop(drops=[SingleDrop(type=structure, props={type=structure, id=gen_acropolis}, propsString=type=structure,ID=gen_acropolis), SingleDrop(type=block, props={posY=TemplateAttr(spec=ValueSpec(type=DOUBLE), templateVars=[(null, TemplateVar(name=bPosY, args=[])), (+1, null)], needsEval=true, type=BOOLEAN), nbttag={Luck=75}, id=lucky:lucky_block, type=block}, propsString=type=block,ID=lucky:lucky_block,posY=#bPosY+1,tileEntity=(Luck=75))], amount=2, shuffle=false), dropString=group(type=structure,ID=gen_acropolis;type=block,ID=lucky:lucky_block,posY=#bPosY+1,tileEntity=(Luck=75))@chance=600, luck=0, chance=600.0)
+[09:24:55] [Server thread/WARN]: hunorstreamer moved too quickly! 3.624902671555162,4.6717535784030275,-8.60739349260652
+[09:24:58] [Server thread/INFO]: [hunorstreamer: Set the world border to 800.0 block(s) wide]
+[09:25:09] [Server thread/INFO]: [hunorstreamer: Set the center of the world border to -276.86, -126.09]
+[09:25:13] [Server thread/INFO]: KOEGlike has made the advancement [Hot Stuff]
+[09:25:16] [Server thread/INFO]: [hunorstreamer: Set the world border to 200.0 block(s) wide]
+[09:25:32] [Server thread/INFO]: Spread 1 player(s) around -210.00584, -168.50005 with an average distance of 0.00 blocks apart
+[09:25:32] [Server thread/INFO]: Spread 1 player(s) around -244.53864, -66.65276 with an average distance of 0.00 blocks apart
+[09:25:32] [Server thread/INFO]: New Event: entropy.events.FakeTeleportEvent total duration: 0
+[09:25:37] [Server thread/INFO]: [hunorstreamer: Set the world border to 400.0 block(s) wide]
+[09:25:52] [Server thread/INFO]: [KOEGlike: Set own game mode to Survival Mode]
+[09:26:15] [Server thread/INFO]: [hunorstreamer: Set own game mode to Survival Mode]
+[09:26:17] [Server thread/INFO]: Could not spread 1 entity/entities around 0.5, 0.5 (too many entities for space - try using spread of at most 0.00)
+[09:26:17] [Server thread/INFO]: Could not spread 1 entity/entities around 0.5, 0.5 (too many entities for space - try using spread of at most 0.00)
+[09:26:17] [Server thread/INFO]: New Event: entropy.events.Teleport0Event total duration: 0
+[09:26:21] [Server thread/INFO]: Chosen Lucky Drop: group(ID=wooden_sword;ID=wooden_shovel;ID=wooden_pickaxe;ID=wooden_axe;ID=wooden_hoe)@luck=0
+[09:26:26] [Server thread/INFO]: Chosen Lucky Drop: group(ID=stone_sword;ID=stone_shovel;ID=stone_pickaxe;ID=stone_axe;ID=stone_hoe)@luck=0
+[09:26:27] [Server thread/INFO]: hunorstreamer has made the advancement [Getting an Upgrade]
+[09:26:34] [Server thread/INFO]: Chosen Lucky Drop: group(ID=golden_sword;ID=golden_shovel;ID=golden_pickaxe;ID=golden_axe;ID=golden_hoe)@luck=1
+[09:26:47] [Server thread/INFO]: Chosen Lucky Drop: group:#rand(2,3):(ID=iron_shovel;ID=iron_pickaxe;ID=iron_axe;ID=iron_sword;ID=iron_hoe)@luck=1
+[09:26:49] [Server thread/INFO]: hunorstreamer has made the advancement [Isn't It Iron Pick]
+[09:26:49] [Server thread/INFO]: Chosen Lucky Drop: group:#rand(1,2):(ID=diamond_sword;ID=diamond_shovel;ID=diamond_pickaxe;ID=diamond_axe;ID=diamond_hoe)@luck=2
+[09:26:50] [Server thread/INFO]: Chosen Lucky Drop: group(ID=leather_helmet;ID=leather_chestplate;ID=leather_leggings;ID=leather_boots)@luck=0
+[09:26:51] [Server thread/INFO]: Chosen Lucky Drop: group(ID=golden_helmet;ID=golden_chestplate;ID=golden_leggings;ID=golden_boots;ID=golden_horse_armor)@luck=1
+[09:26:52] [Server thread/INFO]: Chosen Lucky Drop: group:#rand(2,3):(ID=chainmail_helmet;ID=chainmail_chestplate;ID=chainmail_leggings;ID=chainmail_boots)@luck=2
+[09:26:53] [Server thread/INFO]: Chosen Lucky Drop: group:#rand(2,3):(ID=iron_helmet;ID=iron_chestplate;ID=iron_leggings;ID=iron_boots;ID=iron_horse_armor)@luck=1
+[09:26:54] [Server thread/INFO]: KOEGlike has made the advancement [Suit Up]
+[09:26:54] [Server thread/INFO]: Chosen Lucky Drop: group:#rand(1,2):(ID=diamond_helmet;ID=diamond_chestplate;ID=diamond_leggings;ID=diamond_boots;ID=diamond_horse_armor)@luck=2
+[09:26:55] [Server thread/INFO]: Chosen Lucky Drop: group(ID=iron_horse_armor;ID=golden_horse_armor;ID=diamond_horse_armor)@luck=2
+[09:26:55] [Server thread/INFO]: KOEGlike has made the advancement [Cover Me with Diamonds]
+[09:26:56] [Server thread/INFO]: Chosen Lucky Drop: group(ID=bow;ID=arrow,amount=#rand(16,32))@luck=1
+[09:27:02] [Server thread/INFO]: New Event: entropy.events.AngryBeeEvent total duration: 0
+[09:27:07] [Server thread/WARN]: hunorstreamer moved too quickly! -8.762365517511967,-2.373904036466726,4.900145134491986
+[09:27:13] [Worker-Main-1/INFO]: Generating lucky feature at Vec3(x=-592, y=77, z=160): WeightedDrop(drop=GroupDrop(drops=[SingleDrop(type=block, props={posY=TemplateAttr(spec=ValueSpec(type=DOUBLE), templateVars=[(null, TemplateVar(name=bPosY, args=[])), (-1, null)], needsEval=true, type=BOOLEAN), damage=TemplateAttr(spec=null, templateVars=[(null, TemplateVar(name=rand, args=[0, 2]))], needsEval=true, type=BOOLEAN), amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[20, 30]))], needsEval=true, type=BOOLEAN), id=stone_bricks, type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 3]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=stone_bricks,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),damage=#rand(0,2),amount=#rand(20,30)), SingleDrop(type=block, props={posY=TemplateAttr(spec=ValueSpec(type=DOUBLE), templateVars=[(null, TemplateVar(name=bPosY, args=[])), (-1, null)], needsEval=true, type=BOOLEAN), amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[20, 30]))], needsEval=true, type=BOOLEAN), id=netherrack, type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 3]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=netherrack,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),amount=#rand(20,30)), SingleDrop(type=block, props={posY=TemplateAttr(spec=ValueSpec(type=DOUBLE), templateVars=[(null, TemplateVar(name=bPosY, args=[])), (-1, null)], needsEval=true, type=BOOLEAN), amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[10, 15]))], needsEval=true, type=BOOLEAN), id=obsidian, type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 3]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=obsidian,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),amount=#rand(10,15)), SingleDrop(type=block, props={amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[2, 5]))], needsEval=true, type=BOOLEAN), id=TemplateAttr(spec=ValueSpec(type=STRING), templateVars=[(null, TemplateVar(name=randList, args=[infested, cracked, mossy])), (_stone_bricks, null)], needsEval=true, type=BOOLEAN), type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 2]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=#randList(infested,cracked,mossy)_stone_bricks,posOffset=#circleOffset(#rand(0,2)),amount=#rand(2,5)), SingleDrop(type=block, props={amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[2, 5]))], needsEval=true, type=BOOLEAN), id=netherrack, type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 2]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=netherrack,posOffset=#circleOffset(#rand(0,2)),amount=#rand(2,5)), SingleDrop(type=block, props={amount=TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 2]))], needsEval=true, type=BOOLEAN), id=obsidian, type=block, posOffset=TemplateAttr(spec=ListSpec(elements=[ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE), ValueSpec(type=DOUBLE)]), templateVars=[(null, TemplateVar(name=circleOffset, args=[TemplateAttr(spec=ValueSpec(type=INT), templateVars=[(null, TemplateVar(name=rand, args=[0, 2]))], needsEval=true, type=BOOLEAN)]))], needsEval=true, type=BOOLEAN)}, propsString=type=block,ID=obsidian,posOffset=#circleOffset(#rand(0,2)),amount=#rand(0,2)), SingleDrop(type=block, props={nbttag={Luck=-75}, id=lucky:lucky_block, type=block}, propsString=type=block,ID=lucky:lucky_block,tileEntity=(Luck=-75))], amount=7, shuffle=false), dropString=group(type=block,ID=stone_bricks,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),damage=#rand(0,2),amount=#rand(20,30);type=block,ID=netherrack,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),amount=#rand(20,30);type=block,ID=obsidian,posY=#bPosY-1,posOffset=#circleOffset(#rand(0,3)),amount=#rand(10,15);type=block,ID=#randList(infested,cracked,mossy)_stone_bricks,posOffset=#circleOffset(#rand(0,2)),amount=#rand(2,5);type=block,ID=netherrack,posOffset=#circleOffset(#rand(0,2)),amount=#rand(2,5);type=block,ID=obsidian,posOffset=#circleOffset(#rand(0,2)),amount=#rand(0,2);type=block,ID=lucky:lucky_block,tileEntity=(Luck=-75))@chance=600, luck=0, chance=600.0)
+[09:27:30] [Server thread/INFO]: Chosen Lucky Drop: ID=sponge@luck=0
+[09:27:47] [Server thread/INFO]: New Event: entropy.events.RandomCameraTiltEvent total duration: 600
+[09:27:48] [Worker-Main-2/INFO]: Generating lucky feature at Vec3(x=-560, y=85, z=-304): WeightedDrop(drop=GroupDrop(drops=[SingleDrop(type=structure, props={type=structure, id=gen_acropolis}, propsString=type=structure,ID=gen_acropolis), SingleDrop(type=block, props={posY=TemplateAttr(spec=ValueSpec(type=DOUBLE), templateVars=[(null, TemplateVar(name=bPosY, args=[])), (+1, null)], needsEval=true, type=BOOLEAN), nbttag={Luck=75}, id=lucky:lucky_block, type=block}, propsString=type=block,ID=lucky:lucky_block,posY=#bPosY+1,tileEntity=(Luck=75))], amount=2, shuffle=false), dropString=group(type=structure,ID=gen_acropolis;type=block,ID=lucky:lucky_block,posY=#bPosY+1,tileEntity=(Luck=75))@chance=600, luck=0, chance=600.0)
+[09:28:01] [Server thread/INFO]: Chosen Lucky Drop: ID=tnt,amount=8@luck=1
+[09:28:25] [Server thread/INFO]: hunorstreamer has made the advancement [Stone Age]
+[09:28:32] [Server thread/INFO]: KOEGlike has made the advancement [Best Friends Forever]
+[09:28:32] [Server thread/WARN]: UUID of added entity already exists: class_3222['KOEGlike'/497, l='ServerLevel[world]', x=-199.25, y=66.00, z=-114.57]
+[09:28:32] [Server thread/INFO]: hunorstreamer has made the advancement [Best Friends Forever]
+[09:28:32] [Server thread/WARN]: UUID of added entity already exists: class_3222['hunorstreamer'/298, l='ServerLevel[world]', x=-454.30, y=70.00, z=-131.36]
+[09:28:32] [Server thread/INFO]: New Event: entropy.events.ForceHorseRidingEvent total duration: 600
+[09:29:17] [Server thread/INFO]: New Event: entropy.events.HerobrineEvent total duration: 750
+[09:30:02] [Server thread/INFO]: New Event: entropy.events.TntEvent total duration: 0
+[09:30:04] [Server thread/INFO]: KOEGlike has made the advancement [Monster Hunter]
+[09:30:04] [Server thread/INFO]: KOEGlike blew up
+[09:30:27] [Server thread/INFO]: hunorstreamer fell from a high place
+[09:30:47] [Server thread/INFO]: New Event: entropy.events.SpeedEvent total duration: 1050
+[09:30:53] [Server thread/WARN]: KOEGlike moved wrongly!
+[09:31:25] [Server thread/INFO]: KOEGlike has made the advancement [Stone Age]
+[09:31:31] [Server thread/INFO]: KOEGlike has made the advancement [Acquire Hardware]
+[09:31:32] [Server thread/INFO]: New Event: entropy.events.InvisibleHostileMobsEvent total duration: 600
+[09:31:58] [Worker-Main-5/INFO]: Generating lucky feature at Vec3(x=-432, y=64, z=-400): WeightedDrop(drop=SingleDrop(type=block, props={type=block, id=lucky:lucky_block}, propsString=type=block,ID=lucky:lucky_block), dropString=type=block,ID=lucky:lucky_block@chance=600, luck=0, chance=600.0)
+[09:32:02] [Server thread/INFO]: Chosen Lucky Drop: ID=obsidian,amount=14@luck=1
+[09:32:02] [Server thread/INFO]: KOEGlike has made the advancement [Ice Bucket Challenge]
+[09:32:17] [Server thread/INFO]: New Event: entropy.events.NoDropsEvent total duration: 600
+[09:33:02] [Server thread/INFO]: New Event: entropy.events.RandomDropsEvent total duration: 600
+[09:33:13] [Server thread/INFO]: hunorstreamer lost connection: Disconnected
+[09:33:13] [Server thread/INFO]: hunorstreamer left the game
+[09:33:23] [Server thread/INFO]: KOEGlike lost connection: Disconnected
+[09:33:23] [Server thread/INFO]: KOEGlike left the game

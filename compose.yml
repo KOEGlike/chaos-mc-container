@@ -9,7 +9,7 @@ services:
       EULA: TRUE
       VERSION: 1.19.4
       TYPE: FABRIC
-      MEMORY: 10G
+      MEMORY: 12G
     volumes:
       # attach the relative directory 'data' to the container's /data path
       - ./data:/data
