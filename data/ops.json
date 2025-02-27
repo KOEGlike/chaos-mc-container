@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "548ea57b-d606-4b54-9fb2-0e7fc269daad",
+    "name": "hunorstreamer",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d58f4588-8a25-45c1-b735-3abeb5062246",
+    "name": "KOEGlike",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
