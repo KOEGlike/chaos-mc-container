@@ -301,3 +301,17 @@ java.lang.NullPointerException: Cannot read field "currentEvents" because "this.
 [09:33:13] [Server thread/INFO]: hunorstreamer left the game
 [09:33:23] [Server thread/INFO]: KOEGlike lost connection: Disconnected
 [09:33:23] [Server thread/INFO]: KOEGlike left the game
+[09:33:44] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[09:33:44] [Server thread/INFO]: [Rcon: Stopping the server]
+[09:33:44] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[09:33:44] [Server thread/INFO]: Stopping server
+[09:33:44] [Server thread/INFO]: Saving players
+[09:33:44] [Server thread/INFO]: Saving worlds
+[09:33:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[09:33:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[09:33:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[09:33:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09:33:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:33:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:33:47] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09:33:48] [Server thread/INFO]: Thread RCON Listener stopped
